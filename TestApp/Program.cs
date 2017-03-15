@@ -10,17 +10,35 @@ namespace TestApp
     {
         static void Main(string[] args)
         {
-          //  var leftRotationsObject = new ArrayLeftRotation();
+
+            //  var leftRotationsObject = new ArrayLeftRotation();
             //leftRotationsObject.leftRotations();
 
-            var makingAnagrams = new MakingAnagrams();
-            makingAnagrams.makeAnagram();
+            //   var workingWithNullsObject = new WorkingWithNULLS();
+            // workingWithNullsObject.NullableExample();
+            //workingWithNullsObject.TestNullCoalescing();
+
+            //NullConditionalOperator[] nullConditionalOperator = new NullConditionalOperator[2];
+            //int? length = nullConditionalOperator?.Length;
+            //Console.WriteLine(length);
+            //NullConditionalOperator first = nullConditionalOperator?[0];
+            //Console.WriteLine(first);
+            //int? count = nullConditionalOperator?[0]?.order?.Count();
+            //Console.WriteLine(count);
+
+            var listSortObject = new ListCodingChallenge();
+            listSortObject.listSort();
+
+            //  var makingAnagrams = new MakingAnagrams();
+            //  makingAnagrams.makeAnagram();
             //var baseClassObject = new BaseVisa();
             //BaseVisa derivedClassObject = new B2Visa();
 
             //baseClassObject.IsApproved();
             //derivedClassObject.IsApproved();
-          
+
+
+
             Console.ReadLine();
 
         }
